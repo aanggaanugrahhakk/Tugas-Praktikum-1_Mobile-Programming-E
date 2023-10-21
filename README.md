@@ -37,5 +37,5 @@ Berikut alur penjelasan skrip tersebut:
 
 ## Authors
 
-- [@aanggaanugrahhakk](https://www.github.com/aanggaanugrahhakk)
+- Anugrah AK. [@aanggaanugrahhakk](https://www.github.com/aanggaanugrahhakk)
 
