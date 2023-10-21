@@ -32,7 +32,7 @@ Berikut alur penjelasan skrip tersebut:
 - Widget Column memiliki properti children yang berisi beberapa widget Text dan Image.
 - Widget Text menggunakan font dari library google_fonts/google_fonts.dart.
 - Widget Image menampilkan gambar yang diambil dari URL yang diberikan.
-## 🔗 Links
+## 🔗 Link Data Diri
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anugrahak)
 
 ## Authors
