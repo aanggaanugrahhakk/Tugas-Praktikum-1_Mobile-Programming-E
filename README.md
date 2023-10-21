@@ -39,3 +39,11 @@ Berikut alur penjelasan skrip tersebut:
 
 - Anugrah AK. [@aanggaanugrahhakk](https://www.github.com/aanggaanugrahhakk)
 
+
+## Identitas Authors
+
+Nama: Anugrah AK.
+
+NIM: 202131037
+
+Kelas: E
