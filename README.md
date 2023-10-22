@@ -22,18 +22,18 @@ Penjelasan penyelesaian Widget yang digunakan di skrip:
 
 Berikut alur penjelasan skrip tersebut:
 
-- 1. Impor paket yang diperlukan:
+1. Impor paket yang diperlukan:
 ```
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 ```
 
-- 2. Tentukan fungsi utama yang menjalankan aplikasi:
+2. Tentukan fungsi utama yang menjalankan aplikasi:
 ```
 void main() => runApp(MyApp());
 ```
 
-- 3. Tentukan widget tanpa nama bernama MyApp yang mengembalikan widget MaterialApp:
+3. Tentukan widget tanpa nama bernama MyApp yang mengembalikan widget MaterialApp:
 ```
 class MyApp extends StatelessWidget {
   @override
@@ -70,11 +70,11 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-- 4. Pada widget MaterialApp, atur judulnya menjadi 'Widget Tugas' dan beranda menjadi widget Perancah.
+4. Pada widget MaterialApp, atur judulnya menjadi 'Widget Tugas' dan beranda menjadi widget Perancah.
 
-- 5. Pada widget Perancah, atur appBar ke widget AppBar dengan judul dan warna latar belakang.
+5. Pada widget Perancah, atur appBar ke widget AppBar dengan judul dan warna latar belakang.
 
-- 6. Pada widget Perancah, atur badan ke widget Kolom yang berisi beberapa widget Teks dan widget Gambar. Setiap widget Teks menampilkan string dengan gaya, ukuran, dan tinggi font tertentu. Widget Gambar menampilkan gambar dari URL.
+6. Pada widget Perancah, atur badan ke widget Kolom yang berisi beberapa widget Teks dan widget Gambar. Setiap widget Teks menampilkan string dengan gaya, ukuran, dan tinggi font tertentu. Widget Gambar menampilkan gambar dari URL.
 
 Sitasi:
 - [1] https://pub.dev/packages/google_fonts
