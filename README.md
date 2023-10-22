@@ -10,28 +10,28 @@ Library yang digunakan: flutter/material.dart dan google_fonts/google_fonts.dart
 
 Penjelasan penyelesaian Widget yang digunakan di skrip:
 
-- Mengimpor library material.dart dan google_fonts.dart pada aplikasi Flutter.
-- Membuat class MyApp yang merupakan turunan dari StatelessWidget.
-- Membuat widget MaterialApp yang berisi properti title dan home.
-- Membuat widget Scaffold yang berisi properti appBar dan body.
-- Menambahkan widget Text yang menampilkan nama, nama panggilan, dan asal.
-- Menambahkan widget Image yang menampilkan foto dari URL yang digunakan.
-- Menambahkan widget Text yang menampilkan nama, nim, mata kuliah, dan kelas.
+- Skrip yang diberikan adalah kode Flutter yang menampilkan beberapa teks dan gambar di layar.
+- Kode ini mengimpor paket material.dart dan google_fonts.dart.
+- Fungsi main() memanggil fungsi runApp() dengan widget MyApp sebagai argumennya.
+- Widget MyApp adalah StatelessWidget yang mengembalikan widget MaterialApp dengan judul dan widget Perancah sebagai rumahnya.
+- Widget Perancah memiliki widget AppBar dan widget Kolom sebagai badannya.
+- Widget AppBar memiliki judul dan warna latar belakang.
+- Widget Kolom memiliki empat widget Teks dan widget Image.network sebagai anak-anaknya. 
+- Setiap widget Teks memiliki gaya yang berbeda yang ditentukan menggunakan kelas GoogleFonts.
+- Widget Image.network menampilkan gambar dari sebuah URL.
 
 Berikut alur penjelasan skrip tersebut:
 
-- Mengimpor library flutter/material.dart dan google_fonts/google_fonts.dart.
-- Membuat class MyApp yang merupakan turunan dari StatelessWidget.
-- Override method build pada class MyApp.
-- Membuat widget MaterialApp yang memiliki properti title dan home.
-- Properti home pada widget MaterialApp diisi dengan widget Scaffold.
-- Widget Scaffold memiliki properti appBar dan body.
-- Properti appBar pada widget Scaffold diisi dengan widget AppBar.
-- Widget AppBar memiliki properti title dan backgroundColor.
-- Properti body pada widget Scaffold diisi dengan widget Column.
-- Widget Column memiliki properti children yang berisi beberapa widget Text dan Image.
-- Widget Text menggunakan font dari library google_fonts/google_fonts.dart.
-- Widget Image menampilkan gambar yang diambil dari URL yang diberikan.
+- 
+
+Sitasi:
+- [1] https://pub.dev/packages/google_fonts
+- [2] https://docs.flutter.dev/cookbook/design/fonts
+- [3] https://stackoverflow.com/questions/64471127/how-to-use-googlefonts-as-default-fonts-in-flutter-app
+- [4] https://www.educative.io/answers/how-to-use-google-fonts-in-flutter
+- [5] https://www.geeksforgeeks.org/flutter-using-google-fonts/
+- [6] https://www.scaler.com/topics/google-fonts-flutter/
+
 ## 🔗 Link Data Diri
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anugrahak)
 
