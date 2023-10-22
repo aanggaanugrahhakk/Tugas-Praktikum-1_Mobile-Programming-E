@@ -22,7 +22,59 @@ Penjelasan penyelesaian Widget yang digunakan di skrip:
 
 Berikut alur penjelasan skrip tersebut:
 
-- 
+- 1. Impor paket yang diperlukan:
+```
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+```
+
+- 2. Tentukan fungsi utama yang menjalankan aplikasi:
+```
+void main() => runApp(MyApp());
+```
+
+- 3. Tentukan widget tanpa nama bernama MyApp yang mengembalikan widget MaterialApp:
+```
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+        title: 'Tugas Widget',
+        home: Scaffold(
+          appBar: AppBar(
+            title: Text('Identitas Diri - Anugrah AK.'),
+            backgroundColor: Colors.grey,
+          ),
+          body: Column(children: <Widget>[
+            Text(
+              'Nama: Anugrah AK.',
+              style: GoogleFonts.aboreto(fontSize: 15, height: 2.0),
+            ),
+            Text(
+              'Nama Panggilan: Angga',
+              style: GoogleFonts.abrilFatface(height: 2.0, fontSize: 15),
+            ),
+            Text(
+              'Asal: Desa Lagego, Kec. Burau, Kab. Luwu Timur, Sulawesi Selatan',
+              style: GoogleFonts.abhayaLibre(fontSize: 15, height: 2.0),
+            ),
+            Text(
+              'Anugrah AK. - 202131037 - Mobile Programming E',
+              style: GoogleFonts.abyssinicaSil(height: 2.0, fontSize: 20),
+            ),
+            Image.network(
+                'https://cdn.pixabay.com/photo/2023/09/25/10/05/ai-generated-8274619_1280.png'),
+          ]),
+        ));
+  }
+}
+```
+
+- 4. Pada widget MaterialApp, atur judulnya menjadi 'Widget Tugas' dan beranda menjadi widget Perancah.
+
+- 5. Pada widget Perancah, atur appBar ke widget AppBar dengan judul dan warna latar belakang.
+
+- 6. Pada widget Perancah, atur badan ke widget Kolom yang berisi beberapa widget Teks dan widget Gambar. Setiap widget Teks menampilkan string dengan gaya, ukuran, dan tinggi font tertentu. Widget Gambar menampilkan gambar dari URL.
 
 Sitasi:
 - [1] https://pub.dev/packages/google_fonts
@@ -31,6 +83,12 @@ Sitasi:
 - [4] https://www.educative.io/answers/how-to-use-google-fonts-in-flutter
 - [5] https://www.geeksforgeeks.org/flutter-using-google-fonts/
 - [6] https://www.scaler.com/topics/google-fonts-flutter/
+- [7] https://api.flutter.dev/flutter/material/Scaffold-class.html
+- [8] https://www.geeksforgeeks.org/scaffold-class-in-flutter-with-examples/
+- [9] https://medium.flutterdevs.com/know-your-widgets-scaffold-in-flutter-292b8bc1281
+- [10] https://stackoverflow.com/questions/61424095/how-to-add-multiple-children-to-flutter-scaffold-body
+- [11] https://yashodgayashan.medium.com/flutter-text-widget-14199321155f
+- [12] https://quickcoder.org/how-to-use-the-scaffold-widget-in-a-flutter-application/
 
 ## 🔗 Link Data Diri
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anugrahak)
