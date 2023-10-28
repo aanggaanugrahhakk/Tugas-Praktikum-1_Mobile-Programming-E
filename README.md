@@ -14,9 +14,9 @@ Penjelasan penyelesaian Widget yang digunakan di skrip:
 - Kode ini mengimpor paket material.dart dan google_fonts.dart.
 - Fungsi main() memanggil fungsi runApp() dengan widget MyApp sebagai argumennya.
 - Widget MyApp adalah StatelessWidget yang mengembalikan widget MaterialApp dengan judul dan widget Perancah sebagai rumahnya.
-- Widget Perancah memiliki widget AppBar dan widget Kolom sebagai badannya.
+- Widget Scaffold memiliki widget AppBar dan widget Kolom sebagai badannya.
 - Widget AppBar memiliki judul dan warna latar belakang.
-- Widget Kolom memiliki empat widget Teks dan widget Image.network sebagai anak-anaknya. 
+- Widget Column memiliki empat widget Teks dan widget Image.network sebagai anak-anaknya. 
 - Setiap widget Teks memiliki gaya yang berbeda yang ditentukan menggunakan kelas GoogleFonts.
 - Widget Image.network menampilkan gambar dari sebuah URL.
 
