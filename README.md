@@ -13,11 +13,11 @@ Penjelasan penyelesaian Widget yang digunakan di skrip:
 - Skrip yang diberikan adalah kode Flutter yang menampilkan beberapa teks dan gambar di layar.
 - Kode ini mengimpor paket material.dart dan google_fonts.dart.
 - Fungsi main() memanggil fungsi runApp() dengan widget MyApp sebagai argumennya.
-- Widget MyApp adalah StatelessWidget yang mengembalikan widget MaterialApp dengan judul dan widget Perancah sebagai rumahnya.
-- Widget Scaffold memiliki widget AppBar dan widget Kolom sebagai badannya.
+- Widget MyApp adalah StatelessWidget yang mengembalikan widget MaterialApp dengan judul dan widget Scaffold sebagai rumahnya.
+- Widget Scaffold memiliki widget AppBar dan widget Column sebagai badannya.
 - Widget AppBar memiliki judul dan warna latar belakang.
-- Widget Column memiliki empat widget Teks dan widget Image.network sebagai anak-anaknya. 
-- Setiap widget Teks memiliki gaya yang berbeda yang ditentukan menggunakan kelas GoogleFonts.
+- Widget Column memiliki empat widget Text dan widget Image.network sebagai anak-anaknya. 
+- Setiap widget Text memiliki gaya yang berbeda yang ditentukan menggunakan kelas GoogleFonts.
 - Widget Image.network menampilkan gambar dari sebuah URL.
 
 Berikut alur penjelasan skrip tersebut:
@@ -33,7 +33,7 @@ import 'package:google_fonts/google_fonts.dart';
 void main() => runApp(MyApp());
 ```
 
-3. Tentukan widget tanpa nama bernama MyApp yang mengembalikan widget MaterialApp:
+3. Tentukan widget Stateless bernama MyApp yang mengembalikan widget MaterialApp:
 ```
 class MyApp extends StatelessWidget {
   @override
@@ -70,11 +70,11 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-4. Pada widget MaterialApp, atur judulnya menjadi 'Widget Tugas' dan beranda menjadi widget Perancah.
+4. Pada widget MaterialApp, atur judulnya menjadi 'Widget Tugas' dan beranda menjadi widget Scaffold.
 
-5. Pada widget Perancah, atur appBar ke widget AppBar dengan judul dan warna latar belakang.
+5. Pada widget Scaffold, atur appBar ke widget AppBar dengan judul dan warna latar belakang.
 
-6. Pada widget Perancah, atur badan ke widget Kolom yang berisi beberapa widget Teks dan widget Gambar. Setiap widget Teks menampilkan string dengan gaya, ukuran, dan tinggi font tertentu. Widget Gambar menampilkan gambar dari URL.
+6. Pada widget Scaffold, atur badan ke widget Kolom yang berisi beberapa widget Teks dan widget Gambar. Setiap widget Teks menampilkan string dengan gaya, ukuran, dan tinggi font tertentu. Widget Gambar menampilkan gambar dari URL.
 
 Sitasi:
 - [1] https://pub.dev/packages/google_fonts
