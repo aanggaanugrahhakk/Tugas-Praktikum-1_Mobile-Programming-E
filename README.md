@@ -11,7 +11,7 @@ Library yang digunakan: flutter/material.dart dan google_fonts/google_fonts.dart
 Penjelasan penyelesaian Widget yang digunakan di skrip:
 
 - Skrip yang diberikan adalah kode Flutter yang menampilkan beberapa teks dan gambar di layar.
-- Kode ini mengimpor paket material.dart dan google_fonts.dart.
+- Kode ini mengimpor package material.dart dan google_fonts.dart.
 - Fungsi main() memanggil fungsi runApp() dengan widget MyApp sebagai argumennya.
 - Widget MyApp adalah StatelessWidget yang mengembalikan widget MaterialApp dengan judul dan widget Scaffold sebagai rumahnya.
 - Widget Scaffold memiliki widget AppBar dan widget Column sebagai badannya.
@@ -22,7 +22,7 @@ Penjelasan penyelesaian Widget yang digunakan di skrip:
 
 Berikut alur penjelasan skrip tersebut:
 
-1. Impor paket yang diperlukan:
+1. Impor package yang diperlukan:
 ```
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -70,11 +70,11 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-4. Pada widget MaterialApp, atur judulnya menjadi 'Widget Tugas' dan beranda menjadi widget Scaffold.
+4. Pada widget MaterialApp, atur title menjadi 'Widget Tugas' dan beranda menjadi widget Scaffold.
 
-5. Pada widget Scaffold, atur appBar ke widget AppBar dengan judul dan warna latar belakang.
+5. Pada widget Scaffold, atur appBar ke widget AppBar dengan title dan warna latar belakang.
 
-6. Pada widget Scaffold, atur badan ke widget Kolom yang berisi beberapa widget Teks dan widget Gambar. Setiap widget Teks menampilkan string dengan gaya, ukuran, dan tinggi font tertentu. Widget Gambar menampilkan gambar dari URL.
+6. Pada widget Scaffold, atur badan ke widget Column yang berisi beberapa widget Text dan widget Image. Setiap widget Text menampilkan string dengan gaya, ukuran, dan tinggi font tertentu. Widget Image menampilkan gambar dari URL.
 
 Sitasi:
 - [1] https://pub.dev/packages/google_fonts
